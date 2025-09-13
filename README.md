@@ -1,7 +1,7 @@
-- 👋 Hi, I’m xiaojiang
-- 👀 I’m interested in being hacker
-- 🌱 I’m currently learning web security
-- 💞️ I’m looking to collaborate on digging holes
+- 👋 Hi, I’m Jory
+- 👀 I’m like coding
+- 🌱 I’m currently learning Java
+- 💞️ I’m interested in AI applications
 - 📫 How to reach me,my email is 2668228260@qq.com
 
 <!---
