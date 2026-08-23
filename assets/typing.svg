@@ -6,7 +6,7 @@
     </clipPath>
   </defs>
   <style>
-    /* GitHub paints markdown <img> with --bgColor-muted; cover it with the card colour */
+    /* GitHub paints markdown images with --bgColor-muted; cover it with the card colour */
     #bg { fill: #ffffff; }
     @media (prefers-color-scheme: dark) { #bg { fill: #0d1117; } }
 
