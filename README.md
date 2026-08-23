@@ -1,11 +1,12 @@
 <img src="https://raw.githubusercontent.com/vimself/vimself/main/assets/typing.svg?v=3" alt="Hi, I'm jory." width="242" height="44">
 
-`Born 2002-07-07`  `AI Application Developer`  `HFUT Grad Student`
+`Born 2002-07-07`  `Algorithm Engineer`  `HFUT Grad Student`
 
-- [HFUT](https://www.hfut.edu.cn/) → building AI applications with [Java](https://dev.java/)
-- I like AI apps, feel free to reach out
-- Enjoy programming and build awesome stuff
-- Reach me at [2668228260@qq.com](mailto:2668228260@qq.com)
+- [SYLU](https://www.sylu.edu.cn/) → [HFUT](https://www.hfut.edu.cn/)
+- Vibe coding ✅, traditional coding ❌ 
+- Keep the heart of daring to learn, willing to learn, and knowing how to learn
+- Stick to commit check-in, this's the best way to spur your progress
+- Please use repo Issues for project questions, email for others
 
 <!---
 vimself/vimself is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
