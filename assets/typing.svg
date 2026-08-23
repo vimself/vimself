@@ -1,35 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="248" height="56" viewBox="0 0 248 56" role="img" aria-label="Hi, I'm jory.">
+<svg xmlns="http://www.w3.org/2000/svg" width="242" height="44" viewBox="0 0 242 44" role="img" aria-label="Hi, I'm jory.">
   <title>Hi, I'm jory.</title>
   <defs>
     <clipPath id="reveal">
-      <rect id="mask" x="0" y="0" width="0" height="56"/>
+      <rect id="mask" x="0" y="0" width="0" height="44"/>
     </clipPath>
   </defs>
   <style>
+    /* GitHub paints markdown <img> with --bgColor-muted; cover it with the card colour */
+    #bg { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) { #bg { fill: #0d1117; } }
+
     .txt {
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
       font-size: 30px;
       font-weight: 700;
       fill: #C0762E;
     }
-    #mask  { animation: reveal 6.5s steps(13, end) infinite; }
+    /* type once on load, then hold — never blank the heading out again */
+    #mask  { width: 0;
+             animation: reveal 1.7s steps(13, end) .3s forwards; }
     #caret { fill: #C0762E;
-             animation: caret 6.5s steps(13, end) infinite, blink 1s steps(1, end) infinite; }
+             animation: reveal-caret 1.7s steps(13, end) .3s forwards,
+                        blink 1.06s steps(1, end) infinite; }
 
-    @keyframes reveal {
-      0%, 3%    { width: 0; }
-      42%, 68%  { width: 238px; }
-      97%, 100% { width: 0; }
-    }
-    @keyframes caret {
-      0%, 3%    { transform: translateX(0); }
-      42%, 68%  { transform: translateX(234px); }
-      97%, 100% { transform: translateX(0); }
-    }
-    @keyframes blink {
-      0%, 50%      { opacity: 1; }
-      50.01%, 100% { opacity: 0; }
-    }
+    @keyframes reveal       { to { width: 238px; } }
+    @keyframes reveal-caret { to { transform: translateX(234px); } }
+    @keyframes blink        { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
 
     @media (prefers-reduced-motion: reduce) {
       #mask  { animation: none; width: 238px; }
@@ -37,8 +33,9 @@
     }
   </style>
 
+  <rect id="bg" x="0" y="0" width="242" height="44"/>
   <g clip-path="url(#reveal)">
-    <text class="txt" x="2" y="39" textLength="234" lengthAdjust="spacing">Hi, I'm jory.</text>
+    <text class="txt" x="2" y="32" textLength="234" lengthAdjust="spacing">Hi, I'm jory.</text>
   </g>
-  <rect id="caret" x="2" y="13" width="3" height="32" rx="1.5"/>
+  <rect id="caret" x="2" y="6" width="3" height="30" rx="1.5"/>
 </svg>

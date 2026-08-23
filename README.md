@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/vimself/vimself/main/assets/typing.svg?v=1" alt="Hi, I'm jory." width="248" height="56">
+<img src="https://raw.githubusercontent.com/vimself/vimself/main/assets/typing.svg?v=2" alt="Hi, I'm jory." width="242" height="44">
 
 `Born 2002-07-07`  `AI Application Developer`  `HFUT Grad Student`
 
