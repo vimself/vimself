@@ -2,11 +2,10 @@
 
 `Born 2002-07-07`  `Algorithm Engineer`  `HFUT Grad Student`
 
-- [SYLU](https://www.sylu.edu.cn/) → [HFUT](https://www.hfut.edu.cn/)
 - Vibe coding ✅, traditional coding ❌ 
+- Persist in every commit, harvest in due time
 - Keep the heart of daring to learn, willing to learn, and knowing how to learn
-- Stick to commit check-in, this's the best way to spur your progress
-- Please use repo Issues for project questions, email for others
+- Issues, email, feel free to reach out
 
 <!---
 vimself/vimself is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
